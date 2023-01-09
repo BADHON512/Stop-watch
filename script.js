@@ -22,7 +22,7 @@ const StopWatch=()=>{
        }else if(min>=59){
         min=0
         hour++
-       }else if(hour>12){
+       }else{
         second=0
           min++
        }
