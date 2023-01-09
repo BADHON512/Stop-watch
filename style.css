@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+height: 100vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+
+}
+.clock{
+    font-size: 5rem;
+
+}
+
+.bbb{
+   margin-top: 50px;
+   
+}
+button{
+    padding: 20px 40px;
+    margin: 10px;border-radius: 10px; border: none;
+    font-size: 2rem;
+    transition: 0.2s;
+}
+button:hover{
+    background-color: rgb(112, 253, 18);
+   
+    
+}
+.g{
+    padding-bottom: 70px;
+    font-size: 4rem;
+    color: #000000;
+}
