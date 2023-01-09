@@ -16,15 +16,15 @@ const StopWatch=()=>{
    
     
    stop=setInterval(() => {
+      
+       if(second<59){
         second++
-       if(second>59){
-        second=0
-        min++
-       }else if(min>59){
+       }else if(min>=59){
         min=0
         hour++
        }else if(hour>12){
-        hour=0
+        second=0
+          min++
        }
         const h= hour.toString().padStart(2,"0")
         const m= min.toString().padStart(2,"0" )
